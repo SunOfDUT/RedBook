@@ -1,0 +1,6 @@
+framework module Pods_RedBook {
+  umbrella header "Pods-RedBook-umbrella.h"
+
+  export *
+  module * { export * }
+}

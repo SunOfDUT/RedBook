@@ -1,0 +1,1177 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DC7FEC628FB21E000CD8FA6 /* RedBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FEC528FB21E000CD8FA6 /* RedBookApp.swift */; };
+		3DC7FED728FB21E100CD8FA6 /* RedBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FED628FB21E100CD8FA6 /* RedBookTests.swift */; };
+		3DC7FEE128FB21E100CD8FA6 /* RedBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FEE028FB21E100CD8FA6 /* RedBookUITests.swift */; };
+		3DC7FEE328FB21E100CD8FA6 /* RedBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FEE228FB21E100CD8FA6 /* RedBookUITestsLaunchTests.swift */; };
+		3DC7FF4F28FB221F00CD8FA6 /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FEF028FB221F00CD8FA6 /* Tabbar.swift */; };
+		3DC7FF5028FB221F00CD8FA6 /* Extansion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FEF128FB221F00CD8FA6 /* Extansion.swift */; };
+		3DC7FF5128FB221F00CD8FA6 /* MyAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FEF228FB221F00CD8FA6 /* MyAsyncImage.swift */; };
+		3DC7FF5228FB221F00CD8FA6 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FEF328FB221F00CD8FA6 /* SearchView.swift */; };
+		3DC7FF5328FB221F00CD8FA6 /* SearchDetial2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FEF428FB221F00CD8FA6 /* SearchDetial2.swift */; };
+		3DC7FF5428FB221F00CD8FA6 /* URLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FEF528FB221F00CD8FA6 /* URLImageView.swift */; };
+		3DC7FF5528FB221F00CD8FA6 /* DragSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FEF628FB221F00CD8FA6 /* DragSheetView.swift */; };
+		3DC7FF5628FB221F00CD8FA6 /* RowViewOfMy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FEF728FB221F00CD8FA6 /* RowViewOfMy.swift */; };
+		3DC7FF5728FB221F00CD8FA6 /* SearchDetial1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FEF828FB221F00CD8FA6 /* SearchDetial1.swift */; };
+		3DC7FF5828FB221F00CD8FA6 /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FEF928FB221F00CD8FA6 /* ShareView.swift */; };
+		3DC7FF5928FB221F00CD8FA6 /* SearchDetial3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FEFA28FB221F00CD8FA6 /* SearchDetial3.swift */; };
+		3DC7FF5A28FB221F00CD8FA6 /* SheetCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FEFB28FB221F00CD8FA6 /* SheetCenterView.swift */; };
+		3DC7FF5B28FB221F00CD8FA6 /* SearchDetial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FEFC28FB221F00CD8FA6 /* SearchDetial.swift */; };
+		3DC7FF5C28FB221F00CD8FA6 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FEFD28FB221F00CD8FA6 /* RowView.swift */; };
+		3DC7FF5D28FB221F00CD8FA6 /* SheetBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FEFE28FB221F00CD8FA6 /* SheetBottomView.swift */; };
+		3DC7FF5E28FB221F00CD8FA6 /* FullScreenCardDetial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FEFF28FB221F00CD8FA6 /* FullScreenCardDetial.swift */; };
+		3DC7FF5F28FB221F00CD8FA6 /* ChatDetialSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF0128FB221F00CD8FA6 /* ChatDetialSet.swift */; };
+		3DC7FF6028FB221F00CD8FA6 /* NewConcern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF0228FB221F00CD8FA6 /* NewConcern.swift */; };
+		3DC7FF6128FB221F00CD8FA6 /* ChatCardDetial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF0328FB221F00CD8FA6 /* ChatCardDetial.swift */; };
+		3DC7FF6228FB221F00CD8FA6 /* NotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF0428FB221F00CD8FA6 /* NotView.swift */; };
+		3DC7FF6328FB221F00CD8FA6 /* LoveAndStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF0528FB221F00CD8FA6 /* LoveAndStar.swift */; };
+		3DC7FF6428FB221F00CD8FA6 /* Private Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF0628FB221F00CD8FA6 /* Private Message.swift */; };
+		3DC7FF6528FB221F00CD8FA6 /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF0728FB221F00CD8FA6 /* CommentView.swift */; };
+		3DC7FF6628FB221F00CD8FA6 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF0928FB221F00CD8FA6 /* CardData.swift */; };
+		3DC7FF6728FB221F00CD8FA6 /* TmpSaveObjectData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF0A28FB221F00CD8FA6 /* TmpSaveObjectData.swift */; };
+		3DC7FF6828FB221F00CD8FA6 /* PYQData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF0B28FB221F00CD8FA6 /* PYQData.swift */; };
+		3DC7FF6928FB221F00CD8FA6 /* NoticeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF0C28FB221F00CD8FA6 /* NoticeData.swift */; };
+		3DC7FF6A28FB221F00CD8FA6 /* ClientData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF0D28FB221F00CD8FA6 /* ClientData.swift */; };
+		3DC7FF6B28FB221F00CD8FA6 /* PlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF0F28FB221F00CD8FA6 /* PlusView.swift */; };
+		3DC7FF6C28FB221F00CD8FA6 /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF1128FB221F00CD8FA6 /* RecordingView.swift */; };
+		3DC7FF6D28FB221F00CD8FA6 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF1228FB221F00CD8FA6 /* CameraView.swift */; };
+		3DC7FF6E28FB221F00CD8FA6 /* PYQPublishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF1328FB221F00CD8FA6 /* PYQPublishView.swift */; };
+		3DC7FF6F28FB221F00CD8FA6 /* ForMatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF1528FB221F00CD8FA6 /* ForMatView.swift */; };
+		3DC7FF7028FB221F00CD8FA6 /* PublicImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF1628FB221F00CD8FA6 /* PublicImagePicker.swift */; };
+		3DC7FF7128FB221F00CD8FA6 /* SystemPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF1728FB221F00CD8FA6 /* SystemPicker.swift */; };
+		3DC7FF7228FB221F00CD8FA6 /* SelectImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF1828FB221F00CD8FA6 /* SelectImage.swift */; };
+		3DC7FF7328FB221F00CD8FA6 /* NewImagepiacker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF1928FB221F00CD8FA6 /* NewImagepiacker.swift */; };
+		3DC7FF7428FB221F00CD8FA6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF1A28FB221F00CD8FA6 /* ImagePicker.swift */; };
+		3DC7FF7528FB221F00CD8FA6 /* RealImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF1B28FB221F00CD8FA6 /* RealImagePicker.swift */; };
+		3DC7FF7628FB221F00CD8FA6 /* oldpicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF1C28FB221F00CD8FA6 /* oldpicker.swift */; };
+		3DC7FF7728FB221F00CD8FA6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF1D28FB221F00CD8FA6 /* MainView.swift */; };
+		3DC7FF7828FB221F00CD8FA6 /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF1F28FB221F00CD8FA6 /* MusicView.swift */; };
+		3DC7FF7928FB221F00CD8FA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC7FF2028FB221F00CD8FA6 /* Assets.xcassets */; };
+		3DC7FF7B28FB221F00CD8FA6 /* PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF2428FB221F00CD8FA6 /* PreferenceKey.swift */; };
+		3DC7FF7C28FB221F00CD8FA6 /* SwiftUICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF2528FB221F00CD8FA6 /* SwiftUICollectionView.swift */; };
+		3DC7FF7D28FB221F00CD8FA6 /* Waterfallview.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3DC7FF2628FB221F00CD8FA6 /* Waterfallview.pdf */; };
+		3DC7FF7E28FB221F00CD8FA6 /* Generic Programming.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3DC7FF2728FB221F00CD8FA6 /* Generic Programming.pdf */; };
+		3DC7FF7F28FB221F00CD8FA6 /* EnvironmentKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF2828FB221F00CD8FA6 /* EnvironmentKey.swift */; };
+		3DC7FF8028FB221F00CD8FA6 /* AccountSet2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF2A28FB221F00CD8FA6 /* AccountSet2.swift */; };
+		3DC7FF8128FB221F00CD8FA6 /* ConcernAndLove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF2B28FB221F00CD8FA6 /* ConcernAndLove.swift */; };
+		3DC7FF8228FB221F00CD8FA6 /* AccountSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF2C28FB221F00CD8FA6 /* AccountSet.swift */; };
+		3DC7FF8328FB221F00CD8FA6 /* BiJiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF2D28FB221F00CD8FA6 /* BiJiView.swift */; };
+		3DC7FF8428FB221F00CD8FA6 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF2E28FB221F00CD8FA6 /* AccountView.swift */; };
+		3DC7FF8528FB221F00CD8FA6 /* FindFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF2F28FB221F00CD8FA6 /* FindFriend.swift */; };
+		3DC7FF8628FB221F00CD8FA6 /* EditIngView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF3028FB221F00CD8FA6 /* EditIngView.swift */; };
+		3DC7FF8728FB221F00CD8FA6 /* ClientDetialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF3128FB221F00CD8FA6 /* ClientDetialView.swift */; };
+		3DC7FF8828FB221F00CD8FA6 /* NearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF3328FB221F00CD8FA6 /* NearView.swift */; };
+		3DC7FF8928FB221F00CD8FA6 /* FaXianView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF3428FB221F00CD8FA6 /* FaXianView.swift */; };
+		3DC7FF8A28FB221F00CD8FA6 /* Card2Detial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF3528FB221F00CD8FA6 /* Card2Detial.swift */; };
+		3DC7FF8B28FB221F00CD8FA6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF3628FB221F00CD8FA6 /* HomeView.swift */; };
+		3DC7FF8C28FB221F00CD8FA6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF3728FB221F00CD8FA6 /* Card.swift */; };
+		3DC7FF8D28FB221F00CD8FA6 /* CardDetial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF3828FB221F00CD8FA6 /* CardDetial.swift */; };
+		3DC7FF8E28FB221F00CD8FA6 /* Concernviewdetial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF3928FB221F00CD8FA6 /* Concernviewdetial.swift */; };
+		3DC7FF8F28FB221F00CD8FA6 /* ConcernAccountDetial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF3A28FB221F00CD8FA6 /* ConcernAccountDetial.swift */; };
+		3DC7FF9028FB221F00CD8FA6 /* NavBar1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF3B28FB221F00CD8FA6 /* NavBar1.swift */; };
+		3DC7FF9128FB221F00CD8FA6 /* ALlCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF3C28FB221F00CD8FA6 /* ALlCard.swift */; };
+		3DC7FF9228FB221F00CD8FA6 /* ConcernView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF3D28FB221F00CD8FA6 /* ConcernView.swift */; };
+		3DC7FF9328FB221F00CD8FA6 /* ConcernCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF3E28FB221F00CD8FA6 /* ConcernCard.swift */; };
+		3DC7FF9428FB221F00CD8FA6 /* PinLunDetial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF3F28FB221F00CD8FA6 /* PinLunDetial.swift */; };
+		3DC7FF9528FB221F00CD8FA6 /* NavBar2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF4028FB221F00CD8FA6 /* NavBar2.swift */; };
+		3DC7FF9628FB221F00CD8FA6 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF4228FB221F00CD8FA6 /* Test.swift */; };
+		3DC7FF9728FB221F00CD8FA6 /* test9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF4328FB221F00CD8FA6 /* test9.swift */; };
+		3DC7FF9828FB221F00CD8FA6 /* test8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF4428FB221F00CD8FA6 /* test8.swift */; };
+		3DC7FF9928FB221F00CD8FA6 /* Test4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF4528FB221F00CD8FA6 /* Test4.swift */; };
+		3DC7FF9A28FB221F00CD8FA6 /* Test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF4628FB221F00CD8FA6 /* Test2.swift */; };
+		3DC7FF9B28FB221F00CD8FA6 /* AnimationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF4728FB221F00CD8FA6 /* AnimationTest.swift */; };
+		3DC7FF9C28FB221F00CD8FA6 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF4828FB221F00CD8FA6 /* SwiftUIView.swift */; };
+		3DC7FF9D28FB221F00CD8FA6 /* test7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF4928FB221F00CD8FA6 /* test7.swift */; };
+		3DC7FF9E28FB221F00CD8FA6 /* test5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF4A28FB221F00CD8FA6 /* test5.swift */; };
+		3DC7FF9F28FB221F00CD8FA6 /* Test1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF4B28FB221F00CD8FA6 /* Test1.swift */; };
+		3DC7FFA028FB221F00CD8FA6 /* Test3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF4C28FB221F00CD8FA6 /* Test3.swift */; };
+		3DC7FFA128FB221F00CD8FA6 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7FF4E28FB221F00CD8FA6 /* SignIn.swift */; };
+		3DEB16D629054488000DA5E4 /* BearComponent in Resources */ = {isa = PBXBuildFile; fileRef = 3DEB16D529054487000DA5E4 /* BearComponent */; };
+		3DEB16D829054572000DA5E4 /* BearComponent in Frameworks */ = {isa = PBXBuildFile; productRef = 3DEB16D729054572000DA5E4 /* BearComponent */; };
+		75A7558AF46155783B15EB66 /* Pods_RedBookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA5BFCDB8375E1F868F3B2B /* Pods_RedBookUITests.framework */; };
+		EBC23AF7F49E9493CDC283C9 /* Pods_RedBookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DAE53AB1359709B1C122551 /* Pods_RedBookTests.framework */; };
+		FF33A1479D67D1BCA8C382D2 /* Pods_RedBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E777DE62AE3C622FEA16A7 /* Pods_RedBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DC7FED328FB21E100CD8FA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DC7FEBA28FB21E000CD8FA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DC7FEC128FB21E000CD8FA6;
+			remoteInfo = RedBook;
+		};
+		3DC7FEDD28FB21E100CD8FA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DC7FEBA28FB21E000CD8FA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DC7FEC128FB21E000CD8FA6;
+			remoteInfo = RedBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DC7FEC228FB21E000CD8FA6 /* RedBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC7FEC528FB21E000CD8FA6 /* RedBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBookApp.swift; sourceTree = "<group>"; };
+		3DC7FED228FB21E100CD8FA6 /* RedBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC7FED628FB21E100CD8FA6 /* RedBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBookTests.swift; sourceTree = "<group>"; };
+		3DC7FEDC28FB21E100CD8FA6 /* RedBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC7FEE028FB21E100CD8FA6 /* RedBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBookUITests.swift; sourceTree = "<group>"; };
+		3DC7FEE228FB21E100CD8FA6 /* RedBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3DC7FEF028FB221F00CD8FA6 /* Tabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
+		3DC7FEF128FB221F00CD8FA6 /* Extansion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extansion.swift; sourceTree = "<group>"; };
+		3DC7FEF228FB221F00CD8FA6 /* MyAsyncImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAsyncImage.swift; sourceTree = "<group>"; };
+		3DC7FEF328FB221F00CD8FA6 /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		3DC7FEF428FB221F00CD8FA6 /* SearchDetial2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDetial2.swift; sourceTree = "<group>"; };
+		3DC7FEF528FB221F00CD8FA6 /* URLImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLImageView.swift; sourceTree = "<group>"; };
+		3DC7FEF628FB221F00CD8FA6 /* DragSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragSheetView.swift; sourceTree = "<group>"; };
+		3DC7FEF728FB221F00CD8FA6 /* RowViewOfMy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowViewOfMy.swift; sourceTree = "<group>"; };
+		3DC7FEF828FB221F00CD8FA6 /* SearchDetial1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDetial1.swift; sourceTree = "<group>"; };
+		3DC7FEF928FB221F00CD8FA6 /* ShareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
+		3DC7FEFA28FB221F00CD8FA6 /* SearchDetial3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDetial3.swift; sourceTree = "<group>"; };
+		3DC7FEFB28FB221F00CD8FA6 /* SheetCenterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetCenterView.swift; sourceTree = "<group>"; };
+		3DC7FEFC28FB221F00CD8FA6 /* SearchDetial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDetial.swift; sourceTree = "<group>"; };
+		3DC7FEFD28FB221F00CD8FA6 /* RowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		3DC7FEFE28FB221F00CD8FA6 /* SheetBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetBottomView.swift; sourceTree = "<group>"; };
+		3DC7FEFF28FB221F00CD8FA6 /* FullScreenCardDetial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullScreenCardDetial.swift; sourceTree = "<group>"; };
+		3DC7FF0128FB221F00CD8FA6 /* ChatDetialSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDetialSet.swift; sourceTree = "<group>"; };
+		3DC7FF0228FB221F00CD8FA6 /* NewConcern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewConcern.swift; sourceTree = "<group>"; };
+		3DC7FF0328FB221F00CD8FA6 /* ChatCardDetial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCardDetial.swift; sourceTree = "<group>"; };
+		3DC7FF0428FB221F00CD8FA6 /* NotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotView.swift; sourceTree = "<group>"; };
+		3DC7FF0528FB221F00CD8FA6 /* LoveAndStar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoveAndStar.swift; sourceTree = "<group>"; };
+		3DC7FF0628FB221F00CD8FA6 /* Private Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Private Message.swift"; sourceTree = "<group>"; };
+		3DC7FF0728FB221F00CD8FA6 /* CommentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
+		3DC7FF0928FB221F00CD8FA6 /* CardData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		3DC7FF0A28FB221F00CD8FA6 /* TmpSaveObjectData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TmpSaveObjectData.swift; sourceTree = "<group>"; };
+		3DC7FF0B28FB221F00CD8FA6 /* PYQData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PYQData.swift; sourceTree = "<group>"; };
+		3DC7FF0C28FB221F00CD8FA6 /* NoticeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeData.swift; sourceTree = "<group>"; };
+		3DC7FF0D28FB221F00CD8FA6 /* ClientData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientData.swift; sourceTree = "<group>"; };
+		3DC7FF0F28FB221F00CD8FA6 /* PlusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlusView.swift; sourceTree = "<group>"; };
+		3DC7FF1128FB221F00CD8FA6 /* RecordingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
+		3DC7FF1228FB221F00CD8FA6 /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		3DC7FF1328FB221F00CD8FA6 /* PYQPublishView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PYQPublishView.swift; sourceTree = "<group>"; };
+		3DC7FF1528FB221F00CD8FA6 /* ForMatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForMatView.swift; sourceTree = "<group>"; };
+		3DC7FF1628FB221F00CD8FA6 /* PublicImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicImagePicker.swift; sourceTree = "<group>"; };
+		3DC7FF1728FB221F00CD8FA6 /* SystemPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemPicker.swift; sourceTree = "<group>"; };
+		3DC7FF1828FB221F00CD8FA6 /* SelectImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectImage.swift; sourceTree = "<group>"; };
+		3DC7FF1928FB221F00CD8FA6 /* NewImagepiacker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewImagepiacker.swift; sourceTree = "<group>"; };
+		3DC7FF1A28FB221F00CD8FA6 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		3DC7FF1B28FB221F00CD8FA6 /* RealImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealImagePicker.swift; sourceTree = "<group>"; };
+		3DC7FF1C28FB221F00CD8FA6 /* oldpicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oldpicker.swift; sourceTree = "<group>"; };
+		3DC7FF1D28FB221F00CD8FA6 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3DC7FF1F28FB221F00CD8FA6 /* MusicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
+		3DC7FF2028FB221F00CD8FA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DC7FF2428FB221F00CD8FA6 /* PreferenceKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceKey.swift; sourceTree = "<group>"; };
+		3DC7FF2528FB221F00CD8FA6 /* SwiftUICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUICollectionView.swift; sourceTree = "<group>"; };
+		3DC7FF2628FB221F00CD8FA6 /* Waterfallview.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Waterfallview.pdf; sourceTree = "<group>"; };
+		3DC7FF2728FB221F00CD8FA6 /* Generic Programming.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Generic Programming.pdf"; sourceTree = "<group>"; };
+		3DC7FF2828FB221F00CD8FA6 /* EnvironmentKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentKey.swift; sourceTree = "<group>"; };
+		3DC7FF2A28FB221F00CD8FA6 /* AccountSet2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountSet2.swift; sourceTree = "<group>"; };
+		3DC7FF2B28FB221F00CD8FA6 /* ConcernAndLove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcernAndLove.swift; sourceTree = "<group>"; };
+		3DC7FF2C28FB221F00CD8FA6 /* AccountSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountSet.swift; sourceTree = "<group>"; };
+		3DC7FF2D28FB221F00CD8FA6 /* BiJiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BiJiView.swift; sourceTree = "<group>"; };
+		3DC7FF2E28FB221F00CD8FA6 /* AccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		3DC7FF2F28FB221F00CD8FA6 /* FindFriend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindFriend.swift; sourceTree = "<group>"; };
+		3DC7FF3028FB221F00CD8FA6 /* EditIngView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditIngView.swift; sourceTree = "<group>"; };
+		3DC7FF3128FB221F00CD8FA6 /* ClientDetialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientDetialView.swift; sourceTree = "<group>"; };
+		3DC7FF3328FB221F00CD8FA6 /* NearView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearView.swift; sourceTree = "<group>"; };
+		3DC7FF3428FB221F00CD8FA6 /* FaXianView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaXianView.swift; sourceTree = "<group>"; };
+		3DC7FF3528FB221F00CD8FA6 /* Card2Detial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card2Detial.swift; sourceTree = "<group>"; };
+		3DC7FF3628FB221F00CD8FA6 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3DC7FF3728FB221F00CD8FA6 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		3DC7FF3828FB221F00CD8FA6 /* CardDetial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetial.swift; sourceTree = "<group>"; };
+		3DC7FF3928FB221F00CD8FA6 /* Concernviewdetial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Concernviewdetial.swift; sourceTree = "<group>"; };
+		3DC7FF3A28FB221F00CD8FA6 /* ConcernAccountDetial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcernAccountDetial.swift; sourceTree = "<group>"; };
+		3DC7FF3B28FB221F00CD8FA6 /* NavBar1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBar1.swift; sourceTree = "<group>"; };
+		3DC7FF3C28FB221F00CD8FA6 /* ALlCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALlCard.swift; sourceTree = "<group>"; };
+		3DC7FF3D28FB221F00CD8FA6 /* ConcernView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcernView.swift; sourceTree = "<group>"; };
+		3DC7FF3E28FB221F00CD8FA6 /* ConcernCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcernCard.swift; sourceTree = "<group>"; };
+		3DC7FF3F28FB221F00CD8FA6 /* PinLunDetial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinLunDetial.swift; sourceTree = "<group>"; };
+		3DC7FF4028FB221F00CD8FA6 /* NavBar2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBar2.swift; sourceTree = "<group>"; };
+		3DC7FF4228FB221F00CD8FA6 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		3DC7FF4328FB221F00CD8FA6 /* test9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test9.swift; sourceTree = "<group>"; };
+		3DC7FF4428FB221F00CD8FA6 /* test8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test8.swift; sourceTree = "<group>"; };
+		3DC7FF4528FB221F00CD8FA6 /* Test4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test4.swift; sourceTree = "<group>"; };
+		3DC7FF4628FB221F00CD8FA6 /* Test2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test2.swift; sourceTree = "<group>"; };
+		3DC7FF4728FB221F00CD8FA6 /* AnimationTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationTest.swift; sourceTree = "<group>"; };
+		3DC7FF4828FB221F00CD8FA6 /* SwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		3DC7FF4928FB221F00CD8FA6 /* test7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test7.swift; sourceTree = "<group>"; };
+		3DC7FF4A28FB221F00CD8FA6 /* test5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test5.swift; sourceTree = "<group>"; };
+		3DC7FF4B28FB221F00CD8FA6 /* Test1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test1.swift; sourceTree = "<group>"; };
+		3DC7FF4C28FB221F00CD8FA6 /* Test3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test3.swift; sourceTree = "<group>"; };
+		3DC7FF4E28FB221F00CD8FA6 /* SignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		3DC7FFA328FBC01700CD8FA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3DEB16D529054487000DA5E4 /* BearComponent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = BearComponent; path = ../../BearComponent; sourceTree = "<group>"; };
+		4173DF2210C66E45CD2EF88B /* Pods-RedBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedBookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedBookUITests/Pods-RedBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		54E777DE62AE3C622FEA16A7 /* Pods_RedBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D36377FD5BD92D361720F7D /* Pods-RedBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedBookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedBookTests/Pods-RedBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6DAE53AB1359709B1C122551 /* Pods_RedBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedBookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A03AC5899079B27C522C3A41 /* Pods-RedBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedBookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedBookUITests/Pods-RedBookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AB7A8FBD30F86A5B92B840A7 /* Pods-RedBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedBook/Pods-RedBook.release.xcconfig"; sourceTree = "<group>"; };
+		BDA5BFCDB8375E1F868F3B2B /* Pods_RedBookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedBookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32796B5F879D13B6FE9C63D /* Pods-RedBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedBookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedBookTests/Pods-RedBookTests.release.xcconfig"; sourceTree = "<group>"; };
+		F7BB98B61DA13D902E7FE041 /* Pods-RedBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedBook/Pods-RedBook.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DC7FEBF28FB21E000CD8FA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DEB16D829054572000DA5E4 /* BearComponent in Frameworks */,
+				FF33A1479D67D1BCA8C382D2 /* Pods_RedBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC7FECF28FB21E100CD8FA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC23AF7F49E9493CDC283C9 /* Pods_RedBookTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC7FED928FB21E100CD8FA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A7558AF46155783B15EB66 /* Pods_RedBookUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		390267ED93ADB172BA644378 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54E777DE62AE3C622FEA16A7 /* Pods_RedBook.framework */,
+				6DAE53AB1359709B1C122551 /* Pods_RedBookTests.framework */,
+				BDA5BFCDB8375E1F868F3B2B /* Pods_RedBookUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DC7FEB928FB21E000CD8FA6 = {
+			isa = PBXGroup;
+			children = (
+				3DEB16D529054487000DA5E4 /* BearComponent */,
+				3DC7FEC428FB21E000CD8FA6 /* RedBook */,
+				3DC7FED528FB21E100CD8FA6 /* RedBookTests */,
+				3DC7FEDF28FB21E100CD8FA6 /* RedBookUITests */,
+				3DC7FEC328FB21E000CD8FA6 /* Products */,
+				EAF99B399806AEB04C7D4B72 /* Pods */,
+				390267ED93ADB172BA644378 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DC7FEC328FB21E000CD8FA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DC7FEC228FB21E000CD8FA6 /* RedBook.app */,
+				3DC7FED228FB21E100CD8FA6 /* RedBookTests.xctest */,
+				3DC7FEDC28FB21E100CD8FA6 /* RedBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DC7FEC428FB21E000CD8FA6 /* RedBook */ = {
+			isa = PBXGroup;
+			children = (
+				3DC7FFA328FBC01700CD8FA6 /* Info.plist */,
+				3DC7FEC528FB21E000CD8FA6 /* RedBookApp.swift */,
+				3DC7FF1D28FB221F00CD8FA6 /* MainView.swift */,
+				3DC7FF2028FB221F00CD8FA6 /* Assets.xcassets */,
+				3DC7FFA228FB303F00CD8FA6 /* Preview Content */,
+				3DC7FF4D28FB221F00CD8FA6 /* Sign(登陆注册视图) */,
+				3DC7FF2928FB221F00CD8FA6 /* Account(账户视图) */,
+				3DC7FF0828FB221F00CD8FA6 /* Data(数据) */,
+				3DC7FF3228FB221F00CD8FA6 /* Home(主页面视图) */,
+				3DC7FF1E28FB221F00CD8FA6 /* Music(新加的音乐播放器功能) */,
+				3DC7FF0028FB221F00CD8FA6 /* Notification(消息视图) */,
+				3DC7FF0E28FB221F00CD8FA6 /* Plus(朋友圈功能) */,
+				3DC7FEEF28FB221F00CD8FA6 /* Public(公用扩展or视图) */,
+				3DC7FF2328FB221F00CD8FA6 /* SwiftUICollect(瀑布流视图) */,
+				3DC7FF4128FB221F00CD8FA6 /* Unimportant(不重要的test视图) */,
+			);
+			path = RedBook;
+			sourceTree = "<group>";
+		};
+		3DC7FED528FB21E100CD8FA6 /* RedBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DC7FED628FB21E100CD8FA6 /* RedBookTests.swift */,
+			);
+			path = RedBookTests;
+			sourceTree = "<group>";
+		};
+		3DC7FEDF28FB21E100CD8FA6 /* RedBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DC7FEE028FB21E100CD8FA6 /* RedBookUITests.swift */,
+				3DC7FEE228FB21E100CD8FA6 /* RedBookUITestsLaunchTests.swift */,
+			);
+			path = RedBookUITests;
+			sourceTree = "<group>";
+		};
+		3DC7FEEF28FB221F00CD8FA6 /* Public(公用扩展or视图) */ = {
+			isa = PBXGroup;
+			children = (
+				3DC7FEF028FB221F00CD8FA6 /* Tabbar.swift */,
+				3DC7FEF128FB221F00CD8FA6 /* Extansion.swift */,
+				3DC7FEF228FB221F00CD8FA6 /* MyAsyncImage.swift */,
+				3DC7FEF328FB221F00CD8FA6 /* SearchView.swift */,
+				3DC7FEF428FB221F00CD8FA6 /* SearchDetial2.swift */,
+				3DC7FEF528FB221F00CD8FA6 /* URLImageView.swift */,
+				3DC7FEF628FB221F00CD8FA6 /* DragSheetView.swift */,
+				3DC7FEF728FB221F00CD8FA6 /* RowViewOfMy.swift */,
+				3DC7FEF828FB221F00CD8FA6 /* SearchDetial1.swift */,
+				3DC7FEF928FB221F00CD8FA6 /* ShareView.swift */,
+				3DC7FEFA28FB221F00CD8FA6 /* SearchDetial3.swift */,
+				3DC7FEFB28FB221F00CD8FA6 /* SheetCenterView.swift */,
+				3DC7FEFC28FB221F00CD8FA6 /* SearchDetial.swift */,
+				3DC7FEFD28FB221F00CD8FA6 /* RowView.swift */,
+				3DC7FEFE28FB221F00CD8FA6 /* SheetBottomView.swift */,
+				3DC7FEFF28FB221F00CD8FA6 /* FullScreenCardDetial.swift */,
+			);
+			path = "Public(公用扩展or视图)";
+			sourceTree = "<group>";
+		};
+		3DC7FF0028FB221F00CD8FA6 /* Notification(消息视图) */ = {
+			isa = PBXGroup;
+			children = (
+				3DC7FF0128FB221F00CD8FA6 /* ChatDetialSet.swift */,
+				3DC7FF0228FB221F00CD8FA6 /* NewConcern.swift */,
+				3DC7FF0328FB221F00CD8FA6 /* ChatCardDetial.swift */,
+				3DC7FF0428FB221F00CD8FA6 /* NotView.swift */,
+				3DC7FF0528FB221F00CD8FA6 /* LoveAndStar.swift */,
+				3DC7FF0628FB221F00CD8FA6 /* Private Message.swift */,
+				3DC7FF0728FB221F00CD8FA6 /* CommentView.swift */,
+			);
+			path = "Notification(消息视图)";
+			sourceTree = "<group>";
+		};
+		3DC7FF0828FB221F00CD8FA6 /* Data(数据) */ = {
+			isa = PBXGroup;
+			children = (
+				3DC7FF0928FB221F00CD8FA6 /* CardData.swift */,
+				3DC7FF0A28FB221F00CD8FA6 /* TmpSaveObjectData.swift */,
+				3DC7FF0B28FB221F00CD8FA6 /* PYQData.swift */,
+				3DC7FF0C28FB221F00CD8FA6 /* NoticeData.swift */,
+				3DC7FF0D28FB221F00CD8FA6 /* ClientData.swift */,
+			);
+			path = "Data(数据)";
+			sourceTree = "<group>";
+		};
+		3DC7FF0E28FB221F00CD8FA6 /* Plus(朋友圈功能) */ = {
+			isa = PBXGroup;
+			children = (
+				3DC7FF0F28FB221F00CD8FA6 /* PlusView.swift */,
+				3DC7FF1028FB221F00CD8FA6 /* Camera(自定义相机) */,
+				3DC7FF1328FB221F00CD8FA6 /* PYQPublishView.swift */,
+				3DC7FF1428FB221F00CD8FA6 /* imagepicker(图像选择器) */,
+			);
+			path = "Plus(朋友圈功能)";
+			sourceTree = "<group>";
+		};
+		3DC7FF1028FB221F00CD8FA6 /* Camera(自定义相机) */ = {
+			isa = PBXGroup;
+			children = (
+				3DC7FF1128FB221F00CD8FA6 /* RecordingView.swift */,
+				3DC7FF1228FB221F00CD8FA6 /* CameraView.swift */,
+			);
+			path = "Camera(自定义相机)";
+			sourceTree = "<group>";
+		};
+		3DC7FF1428FB221F00CD8FA6 /* imagepicker(图像选择器) */ = {
+			isa = PBXGroup;
+			children = (
+				3DC7FF1528FB221F00CD8FA6 /* ForMatView.swift */,
+				3DC7FF1628FB221F00CD8FA6 /* PublicImagePicker.swift */,
+				3DC7FF1728FB221F00CD8FA6 /* SystemPicker.swift */,
+				3DC7FF1828FB221F00CD8FA6 /* SelectImage.swift */,
+				3DC7FF1928FB221F00CD8FA6 /* NewImagepiacker.swift */,
+				3DC7FF1A28FB221F00CD8FA6 /* ImagePicker.swift */,
+				3DC7FF1B28FB221F00CD8FA6 /* RealImagePicker.swift */,
+				3DC7FF1C28FB221F00CD8FA6 /* oldpicker.swift */,
+			);
+			path = "imagepicker(图像选择器)";
+			sourceTree = "<group>";
+		};
+		3DC7FF1E28FB221F00CD8FA6 /* Music(新加的音乐播放器功能) */ = {
+			isa = PBXGroup;
+			children = (
+				3DC7FF1F28FB221F00CD8FA6 /* MusicView.swift */,
+			);
+			path = "Music(新加的音乐播放器功能)";
+			sourceTree = "<group>";
+		};
+		3DC7FF2328FB221F00CD8FA6 /* SwiftUICollect(瀑布流视图) */ = {
+			isa = PBXGroup;
+			children = (
+				3DC7FF2428FB221F00CD8FA6 /* PreferenceKey.swift */,
+				3DC7FF2528FB221F00CD8FA6 /* SwiftUICollectionView.swift */,
+				3DC7FF2628FB221F00CD8FA6 /* Waterfallview.pdf */,
+				3DC7FF2728FB221F00CD8FA6 /* Generic Programming.pdf */,
+				3DC7FF2828FB221F00CD8FA6 /* EnvironmentKey.swift */,
+			);
+			path = "SwiftUICollect(瀑布流视图)";
+			sourceTree = "<group>";
+		};
+		3DC7FF2928FB221F00CD8FA6 /* Account(账户视图) */ = {
+			isa = PBXGroup;
+			children = (
+				3DC7FF2A28FB221F00CD8FA6 /* AccountSet2.swift */,
+				3DC7FF2B28FB221F00CD8FA6 /* ConcernAndLove.swift */,
+				3DC7FF2C28FB221F00CD8FA6 /* AccountSet.swift */,
+				3DC7FF2D28FB221F00CD8FA6 /* BiJiView.swift */,
+				3DC7FF2E28FB221F00CD8FA6 /* AccountView.swift */,
+				3DC7FF2F28FB221F00CD8FA6 /* FindFriend.swift */,
+				3DC7FF3028FB221F00CD8FA6 /* EditIngView.swift */,
+				3DC7FF3128FB221F00CD8FA6 /* ClientDetialView.swift */,
+			);
+			path = "Account(账户视图)";
+			sourceTree = "<group>";
+		};
+		3DC7FF3228FB221F00CD8FA6 /* Home(主页面视图) */ = {
+			isa = PBXGroup;
+			children = (
+				3DC7FF3628FB221F00CD8FA6 /* HomeView.swift */,
+				3DC7FF3328FB221F00CD8FA6 /* NearView.swift */,
+				3DC7FF3428FB221F00CD8FA6 /* FaXianView.swift */,
+				3DC7FF3928FB221F00CD8FA6 /* Concernviewdetial.swift */,
+				3DC7FF3A28FB221F00CD8FA6 /* ConcernAccountDetial.swift */,
+				3DC7FF3D28FB221F00CD8FA6 /* ConcernView.swift */,
+				3DC7FF3E28FB221F00CD8FA6 /* ConcernCard.swift */,
+				3DC7FF3F28FB221F00CD8FA6 /* PinLunDetial.swift */,
+				3DC7FFA828FC2D1300CD8FA6 /* NavBar */,
+			);
+			path = "Home(主页面视图)";
+			sourceTree = "<group>";
+		};
+		3DC7FF4128FB221F00CD8FA6 /* Unimportant(不重要的test视图) */ = {
+			isa = PBXGroup;
+			children = (
+				3DC7FF3528FB221F00CD8FA6 /* Card2Detial.swift */,
+				3DC7FF3828FB221F00CD8FA6 /* CardDetial.swift */,
+				3DC7FF3728FB221F00CD8FA6 /* Card.swift */,
+				3DC7FF3C28FB221F00CD8FA6 /* ALlCard.swift */,
+				3DC7FF4228FB221F00CD8FA6 /* Test.swift */,
+				3DC7FF4328FB221F00CD8FA6 /* test9.swift */,
+				3DC7FF4428FB221F00CD8FA6 /* test8.swift */,
+				3DC7FF4528FB221F00CD8FA6 /* Test4.swift */,
+				3DC7FF4628FB221F00CD8FA6 /* Test2.swift */,
+				3DC7FF4728FB221F00CD8FA6 /* AnimationTest.swift */,
+				3DC7FF4828FB221F00CD8FA6 /* SwiftUIView.swift */,
+				3DC7FF4928FB221F00CD8FA6 /* test7.swift */,
+				3DC7FF4A28FB221F00CD8FA6 /* test5.swift */,
+				3DC7FF4B28FB221F00CD8FA6 /* Test1.swift */,
+				3DC7FF4C28FB221F00CD8FA6 /* Test3.swift */,
+			);
+			path = "Unimportant(不重要的test视图)";
+			sourceTree = "<group>";
+		};
+		3DC7FF4D28FB221F00CD8FA6 /* Sign(登陆注册视图) */ = {
+			isa = PBXGroup;
+			children = (
+				3DC7FF4E28FB221F00CD8FA6 /* SignIn.swift */,
+			);
+			path = "Sign(登陆注册视图)";
+			sourceTree = "<group>";
+		};
+		3DC7FFA228FB303F00CD8FA6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3DC7FFA828FC2D1300CD8FA6 /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				3DC7FF3B28FB221F00CD8FA6 /* NavBar1.swift */,
+				3DC7FF4028FB221F00CD8FA6 /* NavBar2.swift */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
+		EAF99B399806AEB04C7D4B72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7BB98B61DA13D902E7FE041 /* Pods-RedBook.debug.xcconfig */,
+				AB7A8FBD30F86A5B92B840A7 /* Pods-RedBook.release.xcconfig */,
+				5D36377FD5BD92D361720F7D /* Pods-RedBookTests.debug.xcconfig */,
+				C32796B5F879D13B6FE9C63D /* Pods-RedBookTests.release.xcconfig */,
+				4173DF2210C66E45CD2EF88B /* Pods-RedBookUITests.debug.xcconfig */,
+				A03AC5899079B27C522C3A41 /* Pods-RedBookUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DC7FEC128FB21E000CD8FA6 /* RedBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC7FEE628FB21E100CD8FA6 /* Build configuration list for PBXNativeTarget "RedBook" */;
+			buildPhases = (
+				86F6781F89066C1119609C59 /* [CP] Check Pods Manifest.lock */,
+				3DC7FEBE28FB21E000CD8FA6 /* Sources */,
+				3DC7FEBF28FB21E000CD8FA6 /* Frameworks */,
+				3DC7FEC028FB21E000CD8FA6 /* Resources */,
+				5A8B30F202DE057C2D6F25C1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedBook;
+			packageProductDependencies = (
+				3DEB16D729054572000DA5E4 /* BearComponent */,
+			);
+			productName = RedBook;
+			productReference = 3DC7FEC228FB21E000CD8FA6 /* RedBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DC7FED128FB21E100CD8FA6 /* RedBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC7FEE928FB21E100CD8FA6 /* Build configuration list for PBXNativeTarget "RedBookTests" */;
+			buildPhases = (
+				4ED87FFDE236E392187C88B4 /* [CP] Check Pods Manifest.lock */,
+				3DC7FECE28FB21E100CD8FA6 /* Sources */,
+				3DC7FECF28FB21E100CD8FA6 /* Frameworks */,
+				3DC7FED028FB21E100CD8FA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DC7FED428FB21E100CD8FA6 /* PBXTargetDependency */,
+			);
+			name = RedBookTests;
+			productName = RedBookTests;
+			productReference = 3DC7FED228FB21E100CD8FA6 /* RedBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DC7FEDB28FB21E100CD8FA6 /* RedBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC7FEEC28FB21E100CD8FA6 /* Build configuration list for PBXNativeTarget "RedBookUITests" */;
+			buildPhases = (
+				C18F81C650F000F04A3BFCBD /* [CP] Check Pods Manifest.lock */,
+				3DC7FED828FB21E100CD8FA6 /* Sources */,
+				3DC7FED928FB21E100CD8FA6 /* Frameworks */,
+				3DC7FEDA28FB21E100CD8FA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DC7FEDE28FB21E100CD8FA6 /* PBXTargetDependency */,
+			);
+			name = RedBookUITests;
+			productName = RedBookUITests;
+			productReference = 3DC7FEDC28FB21E100CD8FA6 /* RedBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DC7FEBA28FB21E000CD8FA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3DC7FEC128FB21E000CD8FA6 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					3DC7FED128FB21E100CD8FA6 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 3DC7FEC128FB21E000CD8FA6;
+					};
+					3DC7FEDB28FB21E100CD8FA6 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 3DC7FEC128FB21E000CD8FA6;
+					};
+				};
+			};
+			buildConfigurationList = 3DC7FEBD28FB21E000CD8FA6 /* Build configuration list for PBXProject "RedBook" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DC7FEB928FB21E000CD8FA6;
+			productRefGroup = 3DC7FEC328FB21E000CD8FA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DC7FEC128FB21E000CD8FA6 /* RedBook */,
+				3DC7FED128FB21E100CD8FA6 /* RedBookTests */,
+				3DC7FEDB28FB21E100CD8FA6 /* RedBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DC7FEC028FB21E000CD8FA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC7FF7D28FB221F00CD8FA6 /* Waterfallview.pdf in Resources */,
+				3DC7FF7928FB221F00CD8FA6 /* Assets.xcassets in Resources */,
+				3DEB16D629054488000DA5E4 /* BearComponent in Resources */,
+				3DC7FF7E28FB221F00CD8FA6 /* Generic Programming.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC7FED028FB21E100CD8FA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC7FEDA28FB21E100CD8FA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4ED87FFDE236E392187C88B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RedBookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A8B30F202DE057C2D6F25C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RedBook/Pods-RedBook-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedBook/Pods-RedBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86F6781F89066C1119609C59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RedBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C18F81C650F000F04A3BFCBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RedBookUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DC7FEBE28FB21E000CD8FA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC7FF5D28FB221F00CD8FA6 /* SheetBottomView.swift in Sources */,
+				3DC7FF5F28FB221F00CD8FA6 /* ChatDetialSet.swift in Sources */,
+				3DC7FF9928FB221F00CD8FA6 /* Test4.swift in Sources */,
+				3DC7FF9D28FB221F00CD8FA6 /* test7.swift in Sources */,
+				3DC7FF5B28FB221F00CD8FA6 /* SearchDetial.swift in Sources */,
+				3DC7FF6F28FB221F00CD8FA6 /* ForMatView.swift in Sources */,
+				3DC7FF8728FB221F00CD8FA6 /* ClientDetialView.swift in Sources */,
+				3DC7FF5828FB221F00CD8FA6 /* ShareView.swift in Sources */,
+				3DC7FF9428FB221F00CD8FA6 /* PinLunDetial.swift in Sources */,
+				3DC7FFA028FB221F00CD8FA6 /* Test3.swift in Sources */,
+				3DC7FF7628FB221F00CD8FA6 /* oldpicker.swift in Sources */,
+				3DC7FF8C28FB221F00CD8FA6 /* Card.swift in Sources */,
+				3DC7FF8B28FB221F00CD8FA6 /* HomeView.swift in Sources */,
+				3DC7FF6728FB221F00CD8FA6 /* TmpSaveObjectData.swift in Sources */,
+				3DC7FF7028FB221F00CD8FA6 /* PublicImagePicker.swift in Sources */,
+				3DC7FF5A28FB221F00CD8FA6 /* SheetCenterView.swift in Sources */,
+				3DC7FF7B28FB221F00CD8FA6 /* PreferenceKey.swift in Sources */,
+				3DC7FF8528FB221F00CD8FA6 /* FindFriend.swift in Sources */,
+				3DC7FF6C28FB221F00CD8FA6 /* RecordingView.swift in Sources */,
+				3DC7FF6028FB221F00CD8FA6 /* NewConcern.swift in Sources */,
+				3DC7FF9628FB221F00CD8FA6 /* Test.swift in Sources */,
+				3DC7FF8228FB221F00CD8FA6 /* AccountSet.swift in Sources */,
+				3DC7FF5728FB221F00CD8FA6 /* SearchDetial1.swift in Sources */,
+				3DC7FF4F28FB221F00CD8FA6 /* Tabbar.swift in Sources */,
+				3DC7FF9A28FB221F00CD8FA6 /* Test2.swift in Sources */,
+				3DC7FF9028FB221F00CD8FA6 /* NavBar1.swift in Sources */,
+				3DC7FF8D28FB221F00CD8FA6 /* CardDetial.swift in Sources */,
+				3DC7FF8A28FB221F00CD8FA6 /* Card2Detial.swift in Sources */,
+				3DC7FF9F28FB221F00CD8FA6 /* Test1.swift in Sources */,
+				3DC7FF7528FB221F00CD8FA6 /* RealImagePicker.swift in Sources */,
+				3DC7FF7828FB221F00CD8FA6 /* MusicView.swift in Sources */,
+				3DC7FF8128FB221F00CD8FA6 /* ConcernAndLove.swift in Sources */,
+				3DC7FEC628FB21E000CD8FA6 /* RedBookApp.swift in Sources */,
+				3DC7FF5028FB221F00CD8FA6 /* Extansion.swift in Sources */,
+				3DC7FF6828FB221F00CD8FA6 /* PYQData.swift in Sources */,
+				3DC7FF5228FB221F00CD8FA6 /* SearchView.swift in Sources */,
+				3DC7FF6E28FB221F00CD8FA6 /* PYQPublishView.swift in Sources */,
+				3DC7FF9328FB221F00CD8FA6 /* ConcernCard.swift in Sources */,
+				3DC7FF8828FB221F00CD8FA6 /* NearView.swift in Sources */,
+				3DC7FF8628FB221F00CD8FA6 /* EditIngView.swift in Sources */,
+				3DC7FF8E28FB221F00CD8FA6 /* Concernviewdetial.swift in Sources */,
+				3DC7FF8428FB221F00CD8FA6 /* AccountView.swift in Sources */,
+				3DC7FF9128FB221F00CD8FA6 /* ALlCard.swift in Sources */,
+				3DC7FF7128FB221F00CD8FA6 /* SystemPicker.swift in Sources */,
+				3DC7FF7228FB221F00CD8FA6 /* SelectImage.swift in Sources */,
+				3DC7FFA128FB221F00CD8FA6 /* SignIn.swift in Sources */,
+				3DC7FF6A28FB221F00CD8FA6 /* ClientData.swift in Sources */,
+				3DC7FF7F28FB221F00CD8FA6 /* EnvironmentKey.swift in Sources */,
+				3DC7FF5328FB221F00CD8FA6 /* SearchDetial2.swift in Sources */,
+				3DC7FF5928FB221F00CD8FA6 /* SearchDetial3.swift in Sources */,
+				3DC7FF6D28FB221F00CD8FA6 /* CameraView.swift in Sources */,
+				3DC7FF9828FB221F00CD8FA6 /* test8.swift in Sources */,
+				3DC7FF6328FB221F00CD8FA6 /* LoveAndStar.swift in Sources */,
+				3DC7FF5C28FB221F00CD8FA6 /* RowView.swift in Sources */,
+				3DC7FF7C28FB221F00CD8FA6 /* SwiftUICollectionView.swift in Sources */,
+				3DC7FF6428FB221F00CD8FA6 /* Private Message.swift in Sources */,
+				3DC7FF6B28FB221F00CD8FA6 /* PlusView.swift in Sources */,
+				3DC7FF9E28FB221F00CD8FA6 /* test5.swift in Sources */,
+				3DC7FF5628FB221F00CD8FA6 /* RowViewOfMy.swift in Sources */,
+				3DC7FF6928FB221F00CD8FA6 /* NoticeData.swift in Sources */,
+				3DC7FF6528FB221F00CD8FA6 /* CommentView.swift in Sources */,
+				3DC7FF9228FB221F00CD8FA6 /* ConcernView.swift in Sources */,
+				3DC7FF8928FB221F00CD8FA6 /* FaXianView.swift in Sources */,
+				3DC7FF5428FB221F00CD8FA6 /* URLImageView.swift in Sources */,
+				3DC7FF5E28FB221F00CD8FA6 /* FullScreenCardDetial.swift in Sources */,
+				3DC7FF8028FB221F00CD8FA6 /* AccountSet2.swift in Sources */,
+				3DC7FF9728FB221F00CD8FA6 /* test9.swift in Sources */,
+				3DC7FF8F28FB221F00CD8FA6 /* ConcernAccountDetial.swift in Sources */,
+				3DC7FF7328FB221F00CD8FA6 /* NewImagepiacker.swift in Sources */,
+				3DC7FF9B28FB221F00CD8FA6 /* AnimationTest.swift in Sources */,
+				3DC7FF9C28FB221F00CD8FA6 /* SwiftUIView.swift in Sources */,
+				3DC7FF6228FB221F00CD8FA6 /* NotView.swift in Sources */,
+				3DC7FF5528FB221F00CD8FA6 /* DragSheetView.swift in Sources */,
+				3DC7FF8328FB221F00CD8FA6 /* BiJiView.swift in Sources */,
+				3DC7FF7728FB221F00CD8FA6 /* MainView.swift in Sources */,
+				3DC7FF6628FB221F00CD8FA6 /* CardData.swift in Sources */,
+				3DC7FF7428FB221F00CD8FA6 /* ImagePicker.swift in Sources */,
+				3DC7FF9528FB221F00CD8FA6 /* NavBar2.swift in Sources */,
+				3DC7FF6128FB221F00CD8FA6 /* ChatCardDetial.swift in Sources */,
+				3DC7FF5128FB221F00CD8FA6 /* MyAsyncImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC7FECE28FB21E100CD8FA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC7FED728FB21E100CD8FA6 /* RedBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC7FED828FB21E100CD8FA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC7FEE128FB21E100CD8FA6 /* RedBookUITests.swift in Sources */,
+				3DC7FEE328FB21E100CD8FA6 /* RedBookUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DC7FED428FB21E100CD8FA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DC7FEC128FB21E000CD8FA6 /* RedBook */;
+			targetProxy = 3DC7FED328FB21E100CD8FA6 /* PBXContainerItemProxy */;
+		};
+		3DC7FEDE28FB21E100CD8FA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DC7FEC128FB21E000CD8FA6 /* RedBook */;
+			targetProxy = 3DC7FEDD28FB21E100CD8FA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3DC7FEE428FB21E100CD8FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DC7FEE528FB21E100CD8FA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DC7FEE728FB21E100CD8FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7BB98B61DA13D902E7FE041 /* Pods-RedBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RedBook/Preview Content\"";
+				DEVELOPMENT_TEAM = JACGLW92PL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RedBook/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "APP需要访问你的相机";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "APP需要访问你的照片";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunzhixiong.RedBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DC7FEE828FB21E100CD8FA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB7A8FBD30F86A5B92B840A7 /* Pods-RedBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RedBook/Preview Content\"";
+				DEVELOPMENT_TEAM = JACGLW92PL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RedBook/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "APP需要访问你的相机";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "APP需要访问你的照片";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunzhixiong.RedBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DC7FEEA28FB21E100CD8FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D36377FD5BD92D361720F7D /* Pods-RedBookTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JACGLW92PL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunzhixiong.RedBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedBook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RedBook";
+			};
+			name = Debug;
+		};
+		3DC7FEEB28FB21E100CD8FA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C32796B5F879D13B6FE9C63D /* Pods-RedBookTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JACGLW92PL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunzhixiong.RedBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedBook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RedBook";
+			};
+			name = Release;
+		};
+		3DC7FEED28FB21E100CD8FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4173DF2210C66E45CD2EF88B /* Pods-RedBookUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JACGLW92PL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunzhixiong.RedBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RedBook;
+			};
+			name = Debug;
+		};
+		3DC7FEEE28FB21E100CD8FA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A03AC5899079B27C522C3A41 /* Pods-RedBookUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JACGLW92PL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunzhixiong.RedBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RedBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DC7FEBD28FB21E000CD8FA6 /* Build configuration list for PBXProject "RedBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC7FEE428FB21E100CD8FA6 /* Debug */,
+				3DC7FEE528FB21E100CD8FA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC7FEE628FB21E100CD8FA6 /* Build configuration list for PBXNativeTarget "RedBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC7FEE728FB21E100CD8FA6 /* Debug */,
+				3DC7FEE828FB21E100CD8FA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC7FEE928FB21E100CD8FA6 /* Build configuration list for PBXNativeTarget "RedBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC7FEEA28FB21E100CD8FA6 /* Debug */,
+				3DC7FEEB28FB21E100CD8FA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC7FEEC28FB21E100CD8FA6 /* Build configuration list for PBXNativeTarget "RedBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC7FEED28FB21E100CD8FA6 /* Debug */,
+				3DC7FEEE28FB21E100CD8FA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3DEB16D729054572000DA5E4 /* BearComponent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BearComponent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3DC7FEBA28FB21E000CD8FA6 /* Project object */;
+}
